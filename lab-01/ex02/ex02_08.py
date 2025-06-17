@@ -9,7 +9,7 @@ so_nhi_phan_list = chuoi_so_nhi_phan.split(',')
 so_chia_het_cho_5 = [so for so in so_nhi_phan_list if chia_het_cho_5(so)]
 if len(so_chia_het_cho_5) > 0:
     ket_qua = ','.join(so_chia_het_cho_5)
-    print("Các số nhị phân chia hết cho 5 là: ")
+    print("Các số nhị phân chia hết cho 5 là: ",ket_qua)
 else:
     print("Không có số nhị phân nào chia hết cho 5 trong chuỗi đã nhập.")
     
